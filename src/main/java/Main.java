@@ -66,6 +66,6 @@ public class Main {
     public static void main(String args[]) {
         SmartContact sc = new SmartContact();
         sc.loadContactListFrom("target/contacts.csv");
-        sc.showContactList();
+        sc.showContactList(sc.getContact("   bá@+-*/^"));
     }
 }
